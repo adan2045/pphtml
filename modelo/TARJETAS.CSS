@@ -1,0 +1,32 @@
+#TARJETA
+
+body {
+    MARGIN: 0;
+    PADDING: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.contenedor{
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.tarjetas{
+border: 2px solid black;
+border-radius: 10px;
+padding: 1rem;
+}
+
+.tarjeta:nth-child(1){
+    background-color: brown;
+    color:white;
+}
+.tarjeta_2{
+    background-color: green;
+    color:white;
+}
+
+.tarjeta:nth-child(3){
+    background-color: aqua;
+    color:black;
+}
